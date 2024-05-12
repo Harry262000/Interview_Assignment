@@ -1,4 +1,6 @@
 import scrapy
 
-class CrowdaItem(scrapy.Item):
-    title = scrapy.Field()
+class CrowdAItem(scrapy.Item):
+    text = scrapy.Field()
+    author = scrapy.Field()
+    tags = scrapy.Field()
